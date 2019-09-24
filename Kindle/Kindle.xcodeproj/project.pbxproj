@@ -12,6 +12,8 @@
 		B702FBED233A62BB004F9928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B702FBEB233A62BB004F9928 /* Main.storyboard */; };
 		B702FBEF233A62BF004F9928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B702FBEE233A62BF004F9928 /* Assets.xcassets */; };
 		B702FBF2233A62BF004F9928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B702FBF0233A62BF004F9928 /* LaunchScreen.storyboard */; };
+		B702FBFA233A73EE004F9928 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702FBF9233A73EE004F9928 /* Models.swift */; };
+		B702FBFC233A748F004F9928 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702FBFB233A748F004F9928 /* BookCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B702FBEE233A62BF004F9928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B702FBF1233A62BF004F9928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B702FBF3233A62BF004F9928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B702FBF9233A73EE004F9928 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B702FBFB233A748F004F9928 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B702FBEE233A62BF004F9928 /* Assets.xcassets */,
 				B702FBF0233A62BF004F9928 /* LaunchScreen.storyboard */,
 				B702FBF3233A62BF004F9928 /* Info.plist */,
+				B702FBF9233A73EE004F9928 /* Models.swift */,
+				B702FBFB233A748F004F9928 /* BookCell.swift */,
 			);
 			path = Kindle;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B702FBFC233A748F004F9928 /* BookCell.swift in Sources */,
+				B702FBFA233A73EE004F9928 /* Models.swift in Sources */,
 				B702FBEA233A62BB004F9928 /* ViewController.swift in Sources */,
 				B702FBE8233A62BB004F9928 /* AppDelegate.swift in Sources */,
 			);
